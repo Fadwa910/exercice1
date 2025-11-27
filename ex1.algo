@@ -1,0 +1,13 @@
+typedef struct produit{
+	float prix;
+	int quantite;l
+	char name;
+	}produit;
+int main()
+{
+	produit p1;
+	p1.prix = 100;
+    p1.quantite = 50;
+	strcpy(p1.name, "fff");
+	return 0;
+}
